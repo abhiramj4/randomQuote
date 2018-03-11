@@ -23,7 +23,6 @@
                         format: 'jsonp'
                     },
                     success: function(response){
-                        $(".message").append(response.quoteText)
                         quote = response.quoteText;
                         author = response.quoteAuthor;
                         
