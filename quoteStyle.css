@@ -1,0 +1,25 @@
+.top-buffer {
+    margin-top: 10%;
+}
+
+.tweet-btn {
+    background-color: #00aced;
+    border-color: #00aced;
+}
+
+.tweet-btn:hover {
+    background-color: #0084b4;
+    border-color: #0084b4;
+}
+
+.clicked {
+    background: lightpink;
+}
+
+body {
+    transition: background-color 1s ease;
+}
+
+message{
+    transition: text 1.5s ease;
+}
